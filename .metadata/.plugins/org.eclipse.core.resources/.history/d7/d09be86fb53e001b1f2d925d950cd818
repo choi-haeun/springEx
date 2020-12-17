@@ -1,0 +1,5 @@
+package com.connect.guestbook.dto;
+
+public class Guestbook {
+
+}

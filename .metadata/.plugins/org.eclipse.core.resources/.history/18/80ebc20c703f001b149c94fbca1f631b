@@ -1,0 +1,17 @@
+package com.connect.guestbook.dao;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.connect.guestbook.config.ApplicationConfig;
+
+public class GuestbookDaoTest {
+
+	public static void main(String[] args) {
+		ApplicationContext ac = new AnnotationConfigApplicationContext(ApplicationConfig.class);
+		
+		LogDao logDao= ac.getBean(LogDao.class); 
+		
+	}
+
+}

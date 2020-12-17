@@ -1,0 +1,15 @@
+package com.springbook.biz.common;
+
+import org.aspectj.lang.JoinPoint;
+
+
+public class AfterAdvice {
+
+	public void finalltlog(JoinPoint jp,Object returnObj) {
+		String method = jp.getSignature().getDeclaringTypeName();
+		if(returnObj instanceof UserVO) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="springloc"/>
+<aop-project name="annot"/>
+<aop-project name="guestbook"/>
+<aop-project name="springAOP"/>
+<aop-project name="springJDBC"/>
+</aop-reference-model>

@@ -1,0 +1,29 @@
+package com.connect.guestbook.config;
+
+import javax.sql.DataSource;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.transaction.annotation.TransactionManagementConfigurer;
+
+@Configuration
+@EnableTransactionManagement
+public class DBConfig implements TransactionManagementConfigurer{
+	
+	private String driver="com.mysql.jdbc.Driver";
+	private String url="jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8";
+	private String user="root";
+	private String password="12345";
+	
+	public DataSource dataSource() {
+		BasicDataSource dataSource = new BasicDataSource();
+		
+	}
+	@Override
+	public PlatformTransactionManager annotationDrivenTransactionManager() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

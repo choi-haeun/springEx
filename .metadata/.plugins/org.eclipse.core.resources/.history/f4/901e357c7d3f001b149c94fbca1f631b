@@ -1,0 +1,5 @@
+package com.connect.guestbook.service.Impl;
+
+public class GuestbookServiceImpl {
+
+}

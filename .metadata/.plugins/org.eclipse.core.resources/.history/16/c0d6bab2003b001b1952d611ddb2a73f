@@ -1,0 +1,19 @@
+package kr.or.connect.diexam01;
+
+public class UserBean {
+/*
+ * 기본생성자 가짐
+ * 팔드는 private하게 선언
+ * getter,setter 메소드를 가짐, getName(),setName() 메소드는 name property를 가짐
+ * */
+	
+	private String name;
+	private int age;
+	private boolean male;
+	
+	public UserBean() {};
+	
+	
+	
+	
+}
